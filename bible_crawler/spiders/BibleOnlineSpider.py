@@ -32,5 +32,6 @@ class AlmeidaCorrigidaSpider(scrapy.Spider):
                                     verse=self.joinVerse(verse_.css('::text').getall()),
                                     version="almeida_corrigida_fiel")
 
-        next_cap_page = response.css('button a::attr("href")').getall()[-1]
-        yield response.follow(url=next_cap_page, callback=self.parseBibliaOnline)
+        if book != 'Apocalipse 22':
+            next_cap_page = response.css('button a::attr("href")').getall()[-1]
+            yield response.follow(url=next_cap_page, callback=self.parseBibliaOnline)
