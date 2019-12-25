@@ -1,0 +1,8 @@
+# my env
+bible_env/
+
+#visual studio code settings
+.vscode/
+
+#dataset
+*.csv
