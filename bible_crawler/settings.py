@@ -24,7 +24,7 @@ ROBOTSTXT_OBEY = False
 LOG_LEVEL = 'INFO'
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 24
+CONCURRENT_REQUESTS = 32
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
@@ -71,7 +71,7 @@ ITEM_PIPELINES = {
     'bible_crawler.pipelines.SaveScrapedVerses': 300
 }
 
-CLOSESPIDER_PAGECOUNT = 1
+#CLOSESPIDER_PAGECOUNT = 1
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
