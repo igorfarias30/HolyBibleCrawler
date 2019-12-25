@@ -6,3 +6,6 @@ bible_env/
 
 #dataset
 *.csv
+
+__pycache__/
+*.pyc
