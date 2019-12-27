@@ -10,7 +10,7 @@ class AlmeidaCorrigidaSpider(scrapy.Spider):
 
     name = "almeida_corrigida"
     custom_settings = {
-        'filename': 'holy_bible_portuguese'
+        'filename': 'holy_bible_acf_portuguese'
     }
 
     def start_requests(self):
