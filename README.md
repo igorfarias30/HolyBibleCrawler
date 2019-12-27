@@ -8,8 +8,15 @@ To install the dependencies:
 $: pip install -r requirements.txt
 ```
 
-Get the Bible "Almeida Corrigida Fiel"
+Get the Bible "Almeida Corrigida Fiel" in Portuguese
 
 ```[python]
 $: scrapy crawl almeida_corrigida
 ```
+
+Get the Bible "King James" in English
+```[python]
+$: scrapy crawl king_james
+```
+
+If you really appreciate this and help you in something, up star this project. Thanks :D
