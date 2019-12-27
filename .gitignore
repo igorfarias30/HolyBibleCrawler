@@ -4,8 +4,5 @@ bible_env/
 #visual studio code settings
 .vscode/
 
-#dataset
-*.csv
-
 __pycache__/
 *.pyc
